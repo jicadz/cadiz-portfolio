@@ -1,0 +1,121 @@
+/* Circle with image */
+  
+  .face-image2, .inner-circle2, .outer-circle2 {
+    overflow: hidden;
+  }
+  
+  .face-image2 {
+    position: absolute;
+    top: 1px;
+    left: -23px;
+    width: 230px;
+    height: 230px;
+    background-image: url(../../assets/face.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .outer-circle2 {
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 29, 141);
+    animation: borderChange 7s infinite alternate;
+  }
+  
+  .inner-circle2 {
+    background: linear-gradient(to right, rgb(255, 29, 141), orange);
+    animation: colorChange 7s infinite alternate;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+  }
+  
+  @keyframes colorChange {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(150deg);
+    }
+    100% {
+        transform: rotate(300deg);
+    }
+  }
+  
+  @keyframes borderChange {
+    0% {
+        border-color: rgb(255, 29, 141);
+        transform: rotate(0deg);
+    }
+    50% {
+        border-color: rgb(255, 59, 29);
+        transform: rotate(150deg);
+    }
+    100% {
+        border-color: rgb(255, 165, 0);
+        transform: rotate(300deg);
+    }
+  }
+
+.toolbox li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skill-card {
+  /* background: url(https://images.unsplash.com/photo-1614853317094-072a63362e31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: bottom; */
+  background: #1b171a;
+}
+
+.icon-box img {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 375px) {
+
+  .face-image2 {
+    top: 5px;
+    left: -15px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .outer-circle2 {
+    width: 170px;
+    height: 170px;
+  }
+
+  .inner-circle2 {
+    width: 155px;
+    height: 155px;
+  }
+  
+}  
+
+@media (min-width: 1024px) {
+
+  .face-image2 {
+    top: 10px;
+    left: -15px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .outer-circle2 {
+    width: 220px;
+    height: 220px;
+  }
+
+  .inner-circle2 {
+    width: 205px;
+    height: 205px;
+  }
+  
+}

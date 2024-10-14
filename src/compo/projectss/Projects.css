@@ -1,0 +1,102 @@
+.box-image div {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.list-proj li {
+    transition: all .5s ease;
+}
+
+/* .box-image {
+    width: 100%;
+    height: 100vh;
+}
+
+.box-image div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.list-proj li {
+    transition: all .5s ease;
+}
+
+.angkas-naog1 {
+    background: url(../../assets/angkas-naog1.png);
+}
+
+.angkas-naog2 {
+    background: url(../../assets/angkas-naog2.png);
+}
+
+.shoe-1 {
+    background: url(../../assets/shoe-1.png);
+}
+
+.shoe-2 {
+    background: url(../../assets/shoe-2.png);
+}
+
+.shoe-3 {
+    background: url(../../assets/shoe-3.png);
+}
+
+.portfolio-1 {
+    background: url(../../assets/portfolio-1.png);
+}
+
+.portfolio-2 {
+    background: url(../../assets/portfolio-2.png);
+}
+
+.job-1 {
+    background: url(../../assets/job-1.png);
+}
+
+.job-2 {
+    background: url(../../assets/job-2.png);
+}
+
+.lemon-1 {
+    background: url(../../assets/lemon-1.png);
+}
+
+.netflix-1 {
+    background: url(../../assets/netflix-1.png);
+}
+
+.netflix-2 {
+    background: url(../../assets/netflix-2.png);
+}
+
+
+@media (max-width: 380px) {
+    .box-image div {
+        height: 190px;
+    }
+}
+
+@media (max-width: 450px) {
+    .box-image div {
+        height: 210px;
+    }
+}
+
+@media (max-width: 520px) {
+    .box-image div {
+        height: 270px;
+    }
+}
+
+@media (max-width: 590px) {
+    .box-image div {
+        height: 350px;
+    }
+}
+
+@media (max-width: 639px) {
+    .box-image div {
+        height: 420px;
+    }
+} */
