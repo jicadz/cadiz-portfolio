@@ -29,7 +29,7 @@ const Homepage = React.forwardRef((props, ref) => {
             </div>
             </div>
 
-            <div className="scroll-reveal mt-[4rem] mb-[2rem] lg:w-[95%]">
+            <div className="scroll-reveal mt-[4rem] mb-[2rem]">
                 <p className="text-left font-mont text-[1.5rem] font-normal lg:text-[2.5rem] md:text-indent-24">
                 <span>
                 As a passionate <strong>UI/UX Designer</strong> and <strong>Web Developer</strong> with 3 years of experience, I specialize in crafting <strong>user-centric designs</strong> and <strong>developing responsive, intuitive websites</strong>. My expertise lies in bridging the gap between aesthetics and functionality, ensuring seamless user experiences while delivering high-quality code.
