@@ -37,7 +37,7 @@ const Homepage = React.forwardRef((props, ref) => {
                 </p>
             </div>
 
-            <RedDot text='View my projects'/>
+            <a href="#projects"><RedDot text='View my projects' /></a>
             
         </section>
     );
