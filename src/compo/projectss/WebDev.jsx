@@ -64,7 +64,7 @@ const WebDev= () => {
 
                 <div className="flex flex-col items-start gap-[1rem] md:flex-row md:justify-between sm:py-[2rem]">
                     <h1 className="text-[1.5rem] font-bgs sm:text-[2.5rem]">Personal Portfolio</h1>
-                    <p className="pr-[1rem] text-[.8rem] md:w-[70%] sm:text-[1.2rem]">This portfolio website is crafted entirely with pure HTML, CSS, and JavaScript, focusing on clean code, fast performance, and a seamless user experience. It showcases a minimalist yet modern design that highlights the content while maintaining an intuitive and visually appealing layout.</p>
+                    <p className="pr-[1rem] text-[1rem] md:w-[70%] sm:text-[1.2rem]">This portfolio website is crafted entirely with pure HTML, CSS, and JavaScript, focusing on clean code, fast performance, and a seamless user experience. It showcases a minimalist yet modern design that highlights the content while maintaining an intuitive and visually appealing layout.</p>
                 </div>
 
                 <div className="box-image flex flex-col gap-[1rem]">
@@ -88,7 +88,7 @@ const WebDev= () => {
 
                 <div className="flex flex-col items-start gap-[1rem] md:flex-row md:justify-between sm:py-[2rem]">
                     <h1 className="text-[1.5rem] font-bgs sm:text-[2.5rem]">Job Search</h1>
-                    <p className="pr-[1rem] text-[.8rem] md:w-[70%] sm:text-[1.2rem]">This job search platform is built using React, designed to provide a fast, responsive, and user-friendly experience for job seekers and employers alike. It leverages the power of modern front-end development to create a dynamic and engaging platform with a focus on efficiency and ease of use.</p>
+                    <p className="pr-[1rem] text-[1rem] md:w-[70%] sm:text-[1.2rem]">This job search platform is built using React, designed to provide a fast, responsive, and user-friendly experience for job seekers and employers alike. It leverages the power of modern front-end development to create a dynamic and engaging platform with a focus on efficiency and ease of use.</p>
                 </div>
 
                 <div className="box-image flex flex-col gap-[1rem]">
@@ -112,7 +112,7 @@ const WebDev= () => {
 
                 <div className="flex flex-col items-start gap-[1rem] md:flex-row md:justify-between sm:py-[2rem]">
                     <h1 className="text-[1.5rem] font-bgs sm:text-[2.5rem]">LemonAide</h1>
-                    <p className="pr-[1rem] text-[.8rem] md:w-[70%] sm:text-[1.2rem]">The LemonAide website is a refreshing and vibrant platform built entirely with pure HTML, CSS, and JavaScript, designed to educate users about the numerous health benefits of lemons. The site combines an eye-catching design with smooth functionality to create an engaging and informative experience.</p>
+                    <p className="pr-[1rem] text-[1rem] md:w-[70%] sm:text-[1.2rem]">The LemonAide website is a refreshing and vibrant platform built entirely with pure HTML, CSS, and JavaScript, designed to educate users about the numerous health benefits of lemons. The site combines an eye-catching design with smooth functionality to create an engaging and informative experience.</p>
                 </div>
 
                 <div className="box-image flex flex-col gap-[1rem]">
@@ -133,7 +133,7 @@ const WebDev= () => {
 
                 <div className="flex flex-col items-start gap-[1rem] md:flex-row md:justify-between sm:py-[2rem]">
                     <h1 className="text-[1.5rem] font-bgs sm:text-[2.5rem]">Netflix Clone</h1>
-                    <p className="pr-[1rem] text-[.8rem] md:w-[70%] sm:text-[1.2rem]">This Netflix clone website is crafted entirely using pure HTML, CSS, and JavaScript to replicate the look and feel of the popular streaming platform. Designed with a focus on performance, user interaction, and aesthetic appeal, it provides an immersive browsing experience with modern design principles and smooth functionality.</p>
+                    <p className="pr-[1rem] text-[1rem] md:w-[70%] sm:text-[1.2rem]">This Netflix clone website is crafted entirely using pure HTML, CSS, and JavaScript to replicate the look and feel of the popular streaming platform. Designed with a focus on performance, user interaction, and aesthetic appeal, it provides an immersive browsing experience with modern design principles and smooth functionality.</p>
                 </div>
 
                 <div className="box-image flex flex-col gap-[1rem]">

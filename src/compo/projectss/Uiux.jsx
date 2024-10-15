@@ -46,7 +46,7 @@ const Uiux = () => {
 
                 <div className="flex flex-col items-start gap-[1rem] md:flex-row md:justify-between sm:py-[2rem]">
                     <h1 className="text-[1.5rem] font-bgs sm:text-[2.5rem]">Angkas-Naog App</h1>
-                    <p className="pr-[1rem] text-[.8rem] md:w-[70%] sm:text-[1.2rem]">Angkas-Naog App is a fast, convenient, and reliable ride-hailing service that uses motorcycles for booking rides. Designed with Figma, the app provides a clean and user-friendly interface for a seamless booking experience. Users can quickly book a professional motorbike driver, track their ride in real time, and enjoy transparent pricing and flexible payment options.</p>
+                    <p className="pr-[1rem] text-[1rem] md:w-[70%] sm:text-[1.2rem]">Angkas-Naog App is a fast, convenient, and reliable ride-hailing service that uses motorcycles for booking rides. Designed with Figma, the app provides a clean and user-friendly interface for a seamless booking experience. Users can quickly book a professional motorbike driver, track their ride in real time, and enjoy transparent pricing and flexible payment options.</p>
                 </div>
 
                 <div className="box-image flex flex-col gap-[1rem]">
@@ -70,7 +70,7 @@ const Uiux = () => {
 
                 <div className="flex flex-col items-start gap-[1rem] md:flex-row md:justify-between sm:py-[2rem]">
                     <h1 className="text-[1.5rem] font-bgs sm:text-[2.5rem]">Shoe Commerce</h1>
-                    <p className="pr-[1rem] text-[.8rem] md:w-[70%] sm:text-[1.2rem]">Shoe Commerce is a modern e-commerce platform designed for shoe enthusiasts, offering a seamless shopping experience for all types of footwear. Built with Figma, the website features a sleek, intuitive interface that makes browsing and purchasing shoes effortless. From casual sneakers to formal footwear, users can explore a wide range of styles and brands, all with detailed product views and easy navigation.</p>
+                    <p className="pr-[1rem] text-[1rem] md:w-[70%] sm:text-[1.2rem]">Shoe Commerce is a modern e-commerce platform designed for shoe enthusiasts, offering a seamless shopping experience for all types of footwear. Built with Figma, the website features a sleek, intuitive interface that makes browsing and purchasing shoes effortless. From casual sneakers to formal footwear, users can explore a wide range of styles and brands, all with detailed product views and easy navigation.</p>
                 </div>
 
                 <div className="box-image flex flex-col gap-[1rem]">
