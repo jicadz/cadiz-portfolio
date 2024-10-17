@@ -12,7 +12,7 @@ const Certifications = () => {
                     <div className="flex flex-col items-center lg:flex-row lg:text-left lg:gap-[1rem] font-mont" data-aos="zoom-in" data-aos-duration="1000">
                     <FaAward className="text-[3rem] text-[#f1dada]"/>
                     <div className="">
-                        <SparklesText text={
+                        <SparklesText sparklesCount={5} text={
                             <p className="text-[1rem] lg:text-[1.5rem]">Foundations of User Experience (UX) Design</p>
                         }/>
                         <p className="text-[#878484] max-w-[400px]">an online non-credit course authorized 

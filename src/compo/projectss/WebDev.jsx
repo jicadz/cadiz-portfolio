@@ -68,10 +68,10 @@ const WebDev= () => {
                 </div>
 
                 <div className="box-image flex flex-col gap-[1rem]">
-                    <div className="portfolio-1 w-[100%]" data-aos="flip-left" data-aos-duration="1000">
+                    <div className="portfolio-1 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
                         <img src={portfolio1} alt="" />
                     </div>
-                    <div className="portfolio-2 w-[100%]" data-aos="flip-left" data-aos-duration="1000">
+                    <div className="portfolio-2 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
                         <img src={portfolio2} alt="" />
                     </div>
                 </div>
@@ -92,10 +92,10 @@ const WebDev= () => {
                 </div>
 
                 <div className="box-image flex flex-col gap-[1rem]">
-                    <div className="job-1 w-[100%]" data-aos="flip-left" data-aos-duration="1000">
+                    <div className="job-1 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
                         <img src={job1} alt="" />
                     </div>
-                    <div className="job-2 w-[100%]" data-aos="flip-left" data-aos-duration="1000">
+                    <div className="job-2 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
                         <img src={job2} alt="" />
                     </div>
                 </div>
@@ -116,7 +116,7 @@ const WebDev= () => {
                 </div>
 
                 <div className="box-image flex flex-col gap-[1rem]">
-                    <div className="lemon-1 w-[100%]" data-aos="flip-left" data-aos-duration="1000">
+                    <div className="lemon-1 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
                         <img src={lemon1} alt="" />
                     </div>
                 </div>
@@ -137,10 +137,10 @@ const WebDev= () => {
                 </div>
 
                 <div className="box-image flex flex-col gap-[1rem]">
-                    <div className="netflix-1 w-[100%]" data-aos="flip-left" data-aos-duration="1000">
+                    <div className="netflix-1 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
                         <img src={netflix1} alt="" />
                     </div>
-                    <div className="netflix-2 w-[100%]" data-aos="flip-left" data-aos-duration="1000">
+                    <div className="netflix-2 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
                         <img src={netflix2} alt="" />
                     </div>
                 </div>
