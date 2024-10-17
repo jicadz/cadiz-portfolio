@@ -7,6 +7,7 @@ import Contact from "./compo/contact/Contact"
 import VelocityScroll from "./components/ui/VelocityScroll"
 import Uiux from "./compo/projectss/Uiux"
 import WebDev from "./compo/projectss/WebDev"
+import MobileNav from "./compo/nav/MobileNav"
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <div className="relative bg-[#0e090d] text-[#f1dada] w-[100%]">
+      <MobileNav scrollToHome={scrollHome} scrollToAbout={scrollAbout} scrollToProjects={scrollProjects} scrollToContact={scrollContact}/>
       <Nav scrollToHome={scrollHome} scrollToAbout={scrollAbout} scrollToProjects={scrollProjects} scrollToContact={scrollContact}/>
       <Homepage ref={refToHome}/>
       <About ref={refToAbout}/>

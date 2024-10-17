@@ -16,6 +16,10 @@ section {
   padding: 5rem 1rem;
 }
 
+/* section, div {
+  border: 2px solid red;
+} */
+
 @layer base {
   :root {
     --background: 0 0% 100%;
