@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import RedDot from '../red-dot/RedDot'
 import './Homepage.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Homepage = React.forwardRef((props, ref) => {
+
+    useEffect(() => {
+        Aos.init()
+    }, [])
+
     return(
         <section ref={ref} className="flex flex-col items-center gap-[2rem] pt-[10rem]">
-            <div className='flex flex-col items-center gap-[2rem] w-[100%] mb-[1rem] lg:flex-row lg:justify-center lg:items-center xl:gap-[2.5rem]'>
-            <div className="flex flex-col items-center text-center lg:w-[40%] lg:text-right lg:items-end">
+            <div className='flex flex-col items-center gap-[2rem] w-[100%] mb-[1rem] lg:flex-row lg:justify-center lg:items-center xl:gap-[2.5rem] overflow-hidden'>
+            <div className="flex flex-col items-center text-center lg:w-[40%] lg:text-right lg:items-end" data-aos="fade-right" data-aos-duration="800">
                 <h1 className="font-bgs text-[2.8rem] xl:text-[4rem]">Joshua Ian Cadiz</h1>
                 <div className="font-mont relative w-[fit-content] text-[.8rem] leading-[1.3rem] lg:text-[.9rem]">
                     <p>Based in Iloilo, Philippines</p>
@@ -17,14 +24,14 @@ const Homepage = React.forwardRef((props, ref) => {
                 </div>
             </div>
 
-            <div className="relative self-center">
+            <div className="relative self-center" data-aos="fade-up" data-aos-duration="800">
                 <div className="outer-circle flex items-center justify-center">
                     <div className="inner-circle"></div>
                 </div>
                 <div className="face-image"></div>
             </div>
 
-            <div className='lg:w-[40%]'>
+            <div className='lg:w-[40%]' data-aos="fade-left" data-aos-offset="0" data-aos-duration="800">
                 <p className="font-bgs text-[1.8rem] mt-[2rem] sm:text-[2.8rem] lg:mt-0 lg:leading-[3rem] xl:text-[4rem] xl:leading-[5rem]">UI/UX Designer & Web Developer</p>
             </div>
             </div>
@@ -37,7 +44,7 @@ const Homepage = React.forwardRef((props, ref) => {
                 </p>
             </div>
 
-            <a href="#projects"><RedDot text='View my projects' /></a>
+            <a href="#projects" data-aos="fade-up" data-aos-duration="800"><RedDot text='View my projects' /></a>
             
         </section>
     );
