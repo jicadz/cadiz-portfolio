@@ -32,7 +32,7 @@ const MobileNav = ({ scrollToHome, scrollToAbout, scrollToProjects , scrollToCon
           </div>
 
           <div className={`mobnav w-[100%] h-[120vh] justify-center items-center fixed top-0 left-0 ${showNav}`}>
-          <ul className="text-[2rem] text-center flex flex-col mt-[40%] gap-[1.2rem]">
+          <ul className="text-[2rem] text-center flex flex-col items-center mt-[40%] gap-[1.2rem]">
               <li onClick={scrollToHome}>Home</li>
               <li onClick={scrollToAbout}>About</li>
               <li onClick={scrollToProjects}>Projects</li>

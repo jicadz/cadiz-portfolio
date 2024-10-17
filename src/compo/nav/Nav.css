@@ -29,6 +29,10 @@
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
+.mobnav ul li {
+    width: fit-content;
+}
+
 .burger-nav span {
     height: 3px;
     background-color: #f1dada;
