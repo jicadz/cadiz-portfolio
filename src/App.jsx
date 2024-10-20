@@ -67,8 +67,8 @@ function App() {
       {
         loading ?
         <div className="bg-[#0e090d] text-[#f1dada] h-[100vh] relative flex justify-center items-center">
-          <p className="font-bgs text-[2rem] absolute">{count}%</p>
-          <RingLoader color="#E01515" size={270} />
+          <p className="font-bgs text-[2rem] font-black absolute">{count}%</p>
+          <RingLoader color="#ff0049" size={270} />
         </div>
         :
       <div>
