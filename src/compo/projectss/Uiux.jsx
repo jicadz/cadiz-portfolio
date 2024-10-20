@@ -77,11 +77,13 @@ const Uiux = () => {
                     <div className="shoe-1 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
                         <img src={shoe1} alt="" />
                     </div>
-                    <div className="shoe-2 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
-                        <img src={shoe2} alt="" />
-                    </div>
-                    <div className="shoe-3 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
-                        <img src={shoe3} alt="" />
+                    <div className="flex flex-col gap-[1rem] sm:flex-row">
+                        <div className="shoe-2 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
+                            <img src={shoe2} alt="" />
+                        </div>
+                        <div className="shoe-3 w-[100%]" data-aos="zoom-in" data-aos-duration="1000">
+                            <img src={shoe3} alt="" />
+                        </div>
                     </div>
                 </div>
 
