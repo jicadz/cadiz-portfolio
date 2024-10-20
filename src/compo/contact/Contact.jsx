@@ -1,5 +1,6 @@
 import React from "react";
 import RedDot from "../red-dot/RedDot";
+import cv from "../../assets/JoshuaIanCadiz.pdf"
 
 const Contact = React.forwardRef((props, ref) => {
 
@@ -17,7 +18,7 @@ const Contact = React.forwardRef((props, ref) => {
                 <p className="font-mont font-medium text-[1.1rem] sm:text-[2rem] lg:text-[3rem] xl:text-[3.5rem] hover:text-[#E01515] cursor-pointer transition-all ease-in">(425) 555-1212</p>
                 <div className="flex justify-center gap-[1rem] scale-[.7] mt-[2rem] md:scale-[1] md:gap-[3rem]">
                      <a href="https://www.linkedin.com/in/joshua-ian-cadiz-818082333/" target="_blank"><RedDot text="LinkedIn"/></a>
-                    <a href=""> <RedDot text="Download my CV"/></a>
+                    <a href={cv} download={'JoshuaIanCadiz.pdf'}> <RedDot text="Download my CV"/></a>
                 </div>
             </div>
 
@@ -37,5 +38,3 @@ const Contact = React.forwardRef((props, ref) => {
 })
 
 export default Contact;
-
-// https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCDCMdmwTNNHPvlPJKHpSsFMLpCNLqmDGLgSdJJZBtnhJDswPklGPPTgwHpHbWVWHbRhqV

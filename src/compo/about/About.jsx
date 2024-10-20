@@ -4,6 +4,7 @@ import "./About.css"
 import Toolbox from "./Toolbox";
 import Skills from "../about/Skills"
 import Certifications from "./Certifications";
+import cv from "../../assets/JoshuaIanCadiz.pdf"
 
 const About = React.forwardRef((props, ref) => {
     return(
@@ -35,7 +36,7 @@ const About = React.forwardRef((props, ref) => {
             </div>
 
             <div className="self-start" data-aos="fade-up" data-aos-duration="800">
-                <RedDot text="Download my CV" />
+                <a href={cv} download={'JoshuaIanCadiz.pdf'}><RedDot text="Download my CV" /></a>
             </div>
             </div>
 
