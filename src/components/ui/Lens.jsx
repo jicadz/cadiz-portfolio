@@ -30,7 +30,7 @@ const Lens = ({
   return (
     <div
       ref={containerRef}
-      className="relative max-w-[350px] max-h-[400px] overflow-hidden rounded-lg z-20"
+      className="relative overflow-hidden rounded-lg z-20"
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
       onMouseMove={handleMouseMove}

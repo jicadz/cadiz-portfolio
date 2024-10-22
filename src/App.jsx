@@ -19,7 +19,7 @@ function App() {
     if (count < 100) {
       const timer = setTimeout(() => {
         setCount(count + 1);
-      }, 30);
+      }, 20);
 
       return () => clearTimeout(timer);
     }
@@ -30,7 +30,7 @@ function App() {
 
     setTimeout(() => {
       setLoading(false)
-    }, 5000)
+    }, 3000)
   }, [])
 
   const refToHome = useRef(null)
@@ -68,7 +68,7 @@ function App() {
         loading ?
         <div className="bg-[#0e090d] text-[#f1dada] h-[100vh] relative flex justify-center items-center">
           <p className="font-bgs text-[2rem] font-black absolute">{count}%</p>
-          <RingLoader color="#ff0049" size={270} />
+          <RingLoader color="#ff0049" size={270} speedMultiplier={1.5} />
         </div>
         :
       <div>

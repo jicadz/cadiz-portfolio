@@ -40,7 +40,7 @@ const WebDev= () => {
       }
 
     return(
-        <section className="relative sm:flex px-[1rem] sm:gap-[10%] w-[100%] lg:px-[4rem]">
+        <section className="wd relative sm:flex px-[1rem] sm:gap-[10%] w-[100%] lg:px-[4rem]">
                 <div className="hidden w-[20%] border-r-[#393131] border-r-[1px] border-r-[solid] sm:block">
                     <div className="sticky top-[15%] flex flex-col gap-[1rem]">
                     <p className="text-[#878484] text-[.6rem] lg:text-[.8rem]">Projects</p>
