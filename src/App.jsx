@@ -9,6 +9,7 @@ import Uiux from "./compo/projectss/Uiux"
 import WebDev from "./compo/projectss/WebDev"
 import MobileNav from "./compo/nav/MobileNav"
 import { RingLoader } from "react-spinners"
+import { ParallaxProvider } from "react-scroll-parallax"
 
 function App() {
 
@@ -74,7 +75,7 @@ function App() {
       <div>
       <MobileNav scrollToHome={scrollHome} scrollToAbout={scrollAbout} scrollToProjects={scrollProjects} scrollToContact={scrollContact}/>
       <Nav scrollToHome={scrollHome} scrollToAbout={scrollAbout} scrollToProjects={scrollProjects} scrollToContact={scrollContact}/>
-      <Homepage ref={refToHome}/>
+      <ParallaxProvider scrollAxis="vertical"><Homepage ref={refToHome}/></ParallaxProvider>
       <About ref={refToAbout}/>
       <Projects ref={refToProjects}/>
       <VelocityScroll text={'UI/UX DESIGN'} className={'text-[4rem] font-bgs leading-[4rem] font-black md:text-[7rem] lg:text-[10rem] md:leading-[9rem]'}/>

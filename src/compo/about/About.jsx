@@ -27,17 +27,13 @@ const About = React.forwardRef((props, ref) => {
 
             <div className="flex flex-col gap-[4rem] lg:w-[75%]">
             <div className="flex flex-col gap-[2.5rem]">
-                <Lens children={
-                    <p className="text-[2rem] tracking-tighter leading-10 lg:text-[4rem] lg:leading-[4.5rem] bg-[#0e090d]" data-aos="fade-up" data-aos-duration="800">I craft digital 
+                <p className="text-[2rem] tracking-tighter leading-10 lg:text-[4rem] lg:leading-[4.5rem] bg-[#0e090d]" data-aos="fade-up" data-aos-duration="800">I craft digital 
                     experiences combining <strong>design, motion</strong> and <strong>development</strong>
-                    </p>
-                } zoomFactor={1.3}/>
+                </p>
 
-                <Lens children={
-                    <p className="text-[1.2rem] leading-7 font-mont bg-[#0e090d]" data-aos="fade-up" data-aos-duration="800">
+                <p className="text-[1.2rem] leading-7 font-mont bg-[#0e090d]" data-aos="fade-up" data-aos-duration="800">
                     My creative journey began 2 years ago when I discovered a passion for everything that could be created through a computer. Curious and driven by the desire to learn and practice, I spent countless hours learning UI/UX design, as well as web development, through online resources and personal projects. All of this naturally led me to continue my studies in this field and then quickly apply my skills in a professional setting.
-                    </p>
-                } zoomFactor={1.3}/>
+                </p>
             </div>
 
             <div className="self-start" data-aos="fade-up" data-aos-duration="800">

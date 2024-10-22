@@ -3,6 +3,7 @@ import RedDot from '../red-dot/RedDot'
 import './Homepage.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { Parallax } from 'react-scroll-parallax';
 
 const Homepage = React.forwardRef((props, ref) => {
 
@@ -11,9 +12,11 @@ const Homepage = React.forwardRef((props, ref) => {
     }, [])
 
     return(
-        <section ref={ref} className="flex flex-col items-center gap-[2rem] pt-[10rem]">
-            <div className='flex flex-col items-center gap-[2rem] w-[100%] mb-[1rem] lg:flex-row lg:justify-center lg:items-center xl:gap-[2.5rem] lg:pb-[3rem] overflow-hidden cursor-default'>
-            <div className="flex flex-col items-center text-center lg:w-[40%] lg:text-right lg:items-end" data-aos="fade-right" data-aos-duration="1000">
+        <section ref={ref} className="flex flex-col items-center gap-[2rem] pt-[10rem] px-0">
+            <Parallax translateY={[-10, 30]} scale={[1, 1.15]} speed={7}>
+           <div className='flex flex-col items-center gap-[2rem] w-[100%] mb-[10rem] lg:flex-row lg:justify-center lg:items-center xl:gap-[2.5rem] lg:pb-[3rem] overflow-hidden cursor-default'>
+            <div className="flex flex-col items-center text-center lg:w-[100%] lg:text-right lg:items-end" data-aos="fade-right" data-aos-duration="1000">
+                
                 <h1 className="font-bgs text-[2.8rem] xl:text-[4rem]">Joshua Ian Cadiz</h1>
                 <div className="font-mont relative w-[fit-content] text-[.8rem] leading-[1.3rem] lg:text-[.9rem]">
                     <p>Based in Iloilo, Philippines</p>
@@ -31,12 +34,13 @@ const Homepage = React.forwardRef((props, ref) => {
                 <div className="face-image"></div>
             </div>
 
-            <div className='lg:w-[40%]' data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000">
+            <div className='lg:w-[100%]' data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000">
                 <p className="font-bgs text-[1.8rem] mt-[2rem] sm:text-[2.8rem] lg:mt-0 lg:leading-[3rem] xl:text-[4rem] xl:leading-[5rem]">UI/UX Designer & Web Developer</p>
             </div>
             </div>
+           </Parallax>
 
-            <div className="scroll-reveal mt-[4rem] mb-[2rem] lg:mt-[2rem]">
+            <div className="scroll-reveal mt-[4rem] mb-[2rem] lg:mt-[2rem] px-[1rem] md:px-[3rem] lg:px-[4rem]">
                 <p className="text-left font-mont text-[1.5rem] font-normal lg:text-[2.5rem] md:text-indent-24">
                 <span>
                 As a passionate <strong>UI/UX Designer</strong> and <strong>Web Developer</strong> with 3 years of experience, I specialize in crafting <strong>user-centric designs</strong> and <strong>developing responsive, intuitive websites</strong>. My expertise lies in bridging the gap between aesthetics and functionality, ensuring seamless user experiences while delivering high-quality code.

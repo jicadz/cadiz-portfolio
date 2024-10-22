@@ -11,7 +11,7 @@ const Skills = () => {
                     <div className="rounded-[10px] overflow-hidden">
                     <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
-                    <p className="text-[1.2rem]">UI/UX Design</p>
+                    <p className="text-[1.2rem] font-medium">UI/UX Design</p>
                     <p className="text-[.8rem] text-[#878484]">Prototyping, System Designs, UX Writing, Graphic Design, and UI Animations</p>
                 </div>
             }/>
@@ -21,7 +21,7 @@ const Skills = () => {
                     <div className="rounded-[10px] overflow-hidden">
                     <img src="https://images.unsplash.com/photo-1561736778-92e52a7769ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
-                    <p className="text-[1.2rem]">Web Development</p>
+                    <p className="text-[1.2rem] font-medium">Web Development</p>
                     <p className="text-[.8rem] text-[#878484]">WordPress Themes, SEO, Full-Stack Develpoment, and Marketing</p>
                 </div>
             }/>
