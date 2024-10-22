@@ -13,7 +13,7 @@ const Certifications = () => {
                     <FaAward className="text-[3rem] text-[#f1dada]"/>
                     <div className="">
                         <SparklesText sparklesCount={5} text={
-                            <p className="text-[1rem] lg:text-[1.5rem]">Foundations of User Experience (UX) Design</p>
+                            <p className="text-[1rem] lg:text-[1.5rem] font-mono">Foundations of User Experience (UX) Design</p>
                         }/>
                         <p className="text-[#878484] max-w-[400px]">an online non-credit course authorized 
                         by Google and offered through Coursera</p>    
