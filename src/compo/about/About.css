@@ -47,11 +47,11 @@
   
   @keyframes borderChange {
     0% {
-        border-color: rgb(255, 29, 141);
+        border-color: #ff1d8d;
         transform: rotate(0deg);
     }
     50% {
-        border-color: rgb(255, 59, 29);
+        border-color: #ff3b1d;
         transform: rotate(150deg);
     }
     100% {
