@@ -7,9 +7,9 @@ import Certifications from "./Certifications";
 import cv from "../../assets/JoshuaIanCadiz.pdf"
 import Lens from "@/components/ui/Lens";
 
-const About = React.forwardRef((props, ref) => {
+const About = (() => {
     return(
-        <section ref={ref} className="flex flex-col gap-[4rem] cursor-default my-[6rem]">
+        <section className="flex flex-col gap-[4rem] cursor-default my-[6rem]" id="about">
             
             <div className="flex items-center justify-center gap-[1rem]" data-aos="fade-up" data-aos-duration="800">
                 <span className="h-[1px] flex-1 bg-[#393131]"></span>

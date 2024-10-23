@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import "./Nav.css"
 
-const MobileNav = ({ scrollToHome, scrollToAbout, scrollToProjects , scrollToContact}) => {
+const MobileNav = () => {
 
   const [xAni, setXAni] = useState('');
   const [burgerNav, onBurgerNav] = useState(true);
@@ -33,10 +33,10 @@ const MobileNav = ({ scrollToHome, scrollToAbout, scrollToProjects , scrollToCon
 
           <div className={`mobnav w-[100%] h-[120vh] justify-center items-center fixed top-0 left-0 ${showNav}`}>
           <ul className="text-[2rem] text-center flex flex-col items-center mt-[40%] gap-[1.2rem]">
-              <li onClick={scrollToHome}>Home</li>
-              <li onClick={scrollToAbout}>About</li>
-              <li onClick={scrollToProjects}>Projects</li>
-              <li onClick={scrollToContact}>Contact</li>
+              <a href="#homepage"><li>Home</li></a>
+              <a href="#about"><li>About</li></a>
+              <a href="#projects"><li>Works</li></a>
+              <a href="#contact"><li>Contact</li></a>
           </ul>
           </div>
           </div>

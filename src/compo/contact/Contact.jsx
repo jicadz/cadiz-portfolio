@@ -3,10 +3,10 @@ import RedDot from "../red-dot/RedDot";
 import cv from "../../assets/JoshuaIanCadiz.pdf"
 import Lens from "@/components/ui/Lens";
 
-const Contact = React.forwardRef((props, ref) => {
+const Contact = (() => {
 
     return(
-        <section ref={ref} className="pb-[1rem] sm:mt-[15%] lg:pb-[2rem] lg:px-[5rem]">
+        <section className="pb-[1rem] sm:mt-[15%] lg:pb-[2rem] lg:px-[5rem]" id="contact">
 
             <div className="flex flex-col items-center justify-center mb-[1rem]">
                     <p className="font-bgs text-[2rem] md:text-[3rem]" data-aos="fade-up" data-aos-duration="800">Contact Me</p>

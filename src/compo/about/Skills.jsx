@@ -7,7 +7,7 @@ const Skills = () => {
             <h1 className="font-bgs text-[2.5rem] lg:w-[25%] sm:text-[4rem]" data-aos="fade-up" data-aos-duration="800">Skills</h1>
             <div className="flex flex-col items-center gap-[1rem] mt-[2rem] lg:flex-row lg:items-start lg:gap-[2rem] lg:w-[75%]">
             <Lens children={
-                <div className="skill-card flex flex-col items-center gap-[.7rem] font-mont p-[1rem] text-center" data-aos="flip-left" data-aos-duration="1500">
+                <div className="skill-card flex flex-col items-center gap-[.7rem] font-mont p-[1rem] text-center" data-aos="fade-up" data-aos-duration="800">
                     <div className="rounded-[10px] overflow-hidden">
                     <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
@@ -17,7 +17,7 @@ const Skills = () => {
             }/>
 
             <Lens children={
-                <div className="skill-card flex flex-col items-center gap-[.7rem] font-mont p-[1rem] text-center" data-aos="flip-left" data-aos-duration="1500">
+                <div className="skill-card flex flex-col items-center gap-[.7rem] font-mont p-[1rem] text-center" data-aos="fade-up" data-aos-duration="800">
                     <div className="rounded-[10px] overflow-hidden">
                     <img src="https://images.unsplash.com/photo-1561736778-92e52a7769ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>

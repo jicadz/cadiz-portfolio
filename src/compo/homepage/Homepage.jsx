@@ -5,14 +5,14 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { Parallax } from 'react-scroll-parallax';
 
-const Homepage = React.forwardRef((props, ref) => {
+const Homepage = (() => {
 
     useEffect(() => {
         Aos.init()
     }, [])
 
     return(
-        <section ref={ref} className="flex flex-col items-center gap-[2rem] pt-[10rem] px-0">
+        <section className="flex flex-col items-center gap-[2rem] pt-[10rem] px-0" id='homepage'>
             <Parallax translateY={[-10, 30]} scale={[1, 1.1]} speed={7}>
            <div className='flex flex-col items-center gap-[2rem] w-[100%] mb-[10rem] lg:flex-row lg:justify-center lg:items-center xl:gap-[2.5rem] lg:pb-[3rem] overflow-hidden cursor-default'>
             <div className="flex flex-col items-center text-center lg:w-[100%] lg:text-right lg:items-end" data-aos="fade-right" data-aos-duration="1000">
